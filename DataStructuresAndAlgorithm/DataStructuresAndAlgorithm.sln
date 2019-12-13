@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructuresAndAlgorithm", "DataStructuresAndAlgorithm.csproj", "{E56022D0-2DC5-4B6E-8CA0-14FE5623EBB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinken01", "..\Chinken01\Chinken01.csproj", "{E569E8D8-A174-4DB7-BF30-B472C7DB57B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chinken01", "..\Chinken01\Chinken01.csproj", "{E569E8D8-A174-4DB7-BF30-B472C7DB57B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS02.IEnumerableAI", "..\DS02.IEnumerableAI\DS02.IEnumerableAI.csproj", "{9211EC98-44AB-4CF1-9EAA-32884A68C75C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E569E8D8-A174-4DB7-BF30-B472C7DB57B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E569E8D8-A174-4DB7-BF30-B472C7DB57B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E569E8D8-A174-4DB7-BF30-B472C7DB57B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9211EC98-44AB-4CF1-9EAA-32884A68C75C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9211EC98-44AB-4CF1-9EAA-32884A68C75C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9211EC98-44AB-4CF1-9EAA-32884A68C75C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9211EC98-44AB-4CF1-9EAA-32884A68C75C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
