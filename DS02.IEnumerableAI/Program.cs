@@ -82,6 +82,13 @@ namespace DS02.IEnumerableAI
                 return;
             }
         }
+
+
+
+        /// <summary>
+        /// 一个定制的实现IEnumerable<T>的类,为此，还需要实现相应的
+        /// IEnumerable 和 IEnumberator<T>
+        /// </summary>
         public class StreamReaderEnumerable : IEnumerable<string>
         {
             private string _filePath;
@@ -97,9 +104,12 @@ namespace DS02.IEnumerableAI
 
             IEnumerator IEnumerable.GetEnumerator() => GetEnumerator1();
 
+
+
+
             /// <summary>
-            /// 一个定制的实现IEnumerable<T>的类，为此，还需要实现相应的
-            /// IEnumerable 和 IEnumerator<T>
+            /// 在实现IEnumerable<T>时，必须实现IEnumerator<T>,范例代码中，遍历文件内容时，每一行一次
+            /// 实现IEnumerable<T>,还需要实现IEnumerator和析构函数IDisposable
             /// </summary>
             public class StreamReaderEnumerator : IEnumerator<string>
             {
