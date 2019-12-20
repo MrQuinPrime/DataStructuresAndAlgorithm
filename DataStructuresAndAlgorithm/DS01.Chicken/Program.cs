@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Chinken01
+namespace DS01.Chicken
 {
     class Program
     {

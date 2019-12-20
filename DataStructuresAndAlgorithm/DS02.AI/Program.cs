@@ -4,13 +4,13 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace DS02.IEnumerableAI
+namespace DS02.AI
 {
     class Program
     {
         static void Main()
         {
-            
+
             var keyString = "人工智能";
             TestReadingFile(keyString);
             Console.WriteLine("======");
@@ -26,14 +26,14 @@ namespace DS02.IEnumerableAI
         public static void TestReadingFile(string keyString)
         {
             var memoryBefore = GC.GetTotalMemory(true);
-            
+
             StreamReader sr;
             try
             {
                 sr = File.OpenText("c:\\temp\\tempFile.txt");
 
             }
-            catch(FileNotFoundException)
+            catch (FileNotFoundException)
             {
                 Console.WriteLine("@这个例子需要一个txt文件");
                 return;
