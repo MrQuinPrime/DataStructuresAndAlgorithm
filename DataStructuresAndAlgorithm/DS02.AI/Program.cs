@@ -55,7 +55,7 @@ namespace DS02.AI
 
             sr.Close();
             Console.WriteLine("数量：" + stringsFound.Count());
-            Console.WriteLine("数量：" + stringsFound);
+            Console.WriteLine("数量：" + stringsFound.ToString());
 
             var memoryAfter = GC.GetTotalMemory(false); // 检查不使用迭代子并将结果输出到控制台之后的内存用量.
             Console.WriteLine("不使用 Iterator 的内存用量 = \t" + string.Format(((memoryAfter - memoryBefore) / 1000).ToString(), "n") + "kb");
