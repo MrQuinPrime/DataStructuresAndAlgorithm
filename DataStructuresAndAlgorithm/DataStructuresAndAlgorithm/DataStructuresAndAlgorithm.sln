@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS01.Chicken", "..\DS01.Chicken\DS01.Chicken.csproj", "{2EA6107F-DFA3-4456-8A01-1F8EB2CA43BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS01.Chicken", "..\DS01.Chicken\DS01.Chicken.csproj", "{2EA6107F-DFA3-4456-8A01-1F8EB2CA43BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS02.AI", "..\DS02.AI\DS02.AI.csproj", "{2926B75B-6389-48D9-BB21-820F5833E3A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS02.AI", "..\DS02.AI\DS02.AI.csproj", "{2926B75B-6389-48D9-BB21-820F5833E3A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS03.PlayingCard", "DS03.PlayingCard\DS03.PlayingCard.csproj", "{77835A65-9B2B-46A8-A97A-D6CA2E0A2CC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2926B75B-6389-48D9-BB21-820F5833E3A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2926B75B-6389-48D9-BB21-820F5833E3A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2926B75B-6389-48D9-BB21-820F5833E3A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77835A65-9B2B-46A8-A97A-D6CA2E0A2CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77835A65-9B2B-46A8-A97A-D6CA2E0A2CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77835A65-9B2B-46A8-A97A-D6CA2E0A2CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77835A65-9B2B-46A8-A97A-D6CA2E0A2CC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
