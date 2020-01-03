@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS02.AI", "..\DS02.AI\DS02.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS03.Poker", "..\Poker\Poker\DS03.Poker.csproj", "{A0B16CB8-2048-43E2-9B3C-FCD3C69035AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS04.PersonCount", "DS04.PersonCount\DS04.PersonCount.csproj", "{DBE52BB3-266C-4C1B-856B-DC26B3FF439A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS04.AverageAge", "..\AverageAge\AverageAge\DS04.AverageAge.csproj", "{1DA5E277-747E-45A6-AD30-ABE1A28B404E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{A0B16CB8-2048-43E2-9B3C-FCD3C69035AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0B16CB8-2048-43E2-9B3C-FCD3C69035AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0B16CB8-2048-43E2-9B3C-FCD3C69035AA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DBE52BB3-266C-4C1B-856B-DC26B3FF439A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DBE52BB3-266C-4C1B-856B-DC26B3FF439A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DBE52BB3-266C-4C1B-856B-DC26B3FF439A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBE52BB3-266C-4C1B-856B-DC26B3FF439A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DA5E277-747E-45A6-AD30-ABE1A28B404E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA5E277-747E-45A6-AD30-ABE1A28B404E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA5E277-747E-45A6-AD30-ABE1A28B404E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA5E277-747E-45A6-AD30-ABE1A28B404E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
