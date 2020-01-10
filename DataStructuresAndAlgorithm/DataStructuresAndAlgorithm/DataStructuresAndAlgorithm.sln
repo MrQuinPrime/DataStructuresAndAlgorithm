@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS03.Poker", "..\Poker\Poke
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS04.AverageAge", "..\AverageAge\AverageAge\DS04.AverageAge.csproj", "{AD82AEF3-1F43-409D-B084-B25F4639746B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS05.ClassDictionaries", "..\DS05.ClassDictionaries\DS05.ClassDictionaries.csproj", "{01BDBDA3-17B7-40FB-A485-A97C1EB9A455}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS05.ClassDictionaries", "..\DS05.ClassDictionaries\DS05.ClassDictionaries.csproj", "{01BDBDA3-17B7-40FB-A485-A97C1EB9A455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS06.BinarySTree", "DS06.BinarySTree\DS06.BinarySTree.csproj", "{50718D3C-9ED5-4CBD-B40A-661E80C2EF07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{01BDBDA3-17B7-40FB-A485-A97C1EB9A455}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01BDBDA3-17B7-40FB-A485-A97C1EB9A455}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01BDBDA3-17B7-40FB-A485-A97C1EB9A455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50718D3C-9ED5-4CBD-B40A-661E80C2EF07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50718D3C-9ED5-4CBD-B40A-661E80C2EF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50718D3C-9ED5-4CBD-B40A-661E80C2EF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50718D3C-9ED5-4CBD-B40A-661E80C2EF07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
